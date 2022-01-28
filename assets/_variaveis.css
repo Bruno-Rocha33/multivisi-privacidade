@@ -1,0 +1,20 @@
+:root {
+  --azul: #003CE5;
+  --preto: #333333;
+
+  --familia-titulo-destaque: 'Nunito', sans-serif;
+  --familia-titulo: 'Nunito', sans-serif;
+  --familia-subtitulo: 'Nunito', sans-serif;
+  --familia-corpo: 'Nunito', sans-serif;
+
+  --peso-titulo-destaque: 700;
+  --peso-titulo: 600;
+  --peso-subtitulo: 700;
+  --peso-corpo: 400;
+
+  --tamanho-titulo-destaque: 3rem;
+  --tamanho-titulo: 3rem;
+  --tamanho-subtitulo: 24px;
+  --tamanho-corpo: 1.125rem;
+
+}
