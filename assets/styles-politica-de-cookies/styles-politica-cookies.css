@@ -1,0 +1,171 @@
+@import url(../_variaveis.css);
+
+body {
+  font-family: var(--familia-corpo);
+  font-size: var(--tamanho-corpo);
+  color: var(--preto);
+}
+
+.titulo-destaque {
+  font-family: var(--familia-titulo-destaque);
+  color: var(--preto);
+  font-weight: var(--peso-titulo-destaque);
+  font-size: var(--tamanho-titulo-destaque);
+  margin-bottom: 1rem;
+  line-height: 3.5rem;
+}
+
+.corpo {
+  font-weight: var(--peso-corpo);
+  font-size: var(--tamanho-corpo);
+}
+
+p {
+  line-height: 2rem;
+}
+
+
+.titulo {
+  font-family: var(--familia-titulo);
+  color: var(--preto);
+  font-weight: var(--peso-titulo);
+  font-size: var(--tamanho-titulo);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 190px;
+}
+
+
+.subtitulo {
+  font-family: var(--familia-subtitulo);
+  color: var(--preto);
+  font-weight: var(--peso-subtitulo);
+  font-size: var(--tamanho-subtitulo);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: var(--preto);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--azul);
+}
+
+a {
+  color: var(--azul);
+}
+
+/*Cabeçalho*/
+
+header {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: white;
+  height: 45px;
+  display: flex;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+header img {
+  width: 349px;
+  height: 35px;
+}
+
+.navegacao {
+  display: flex;
+  margin-left: 140px;
+}
+
+li {
+  margin-left: 38px;
+  list-style-type: none;
+}
+
+li:hover {
+  color: var(--azul);
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.voltar {
+  margin-left: 150px;
+}
+
+.icone-seta {
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 20px;
+  height: 10px;
+}
+
+
+/*Inicio da página*/
+
+.home-background {
+  background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgba(245,253,255,1) 35%, rgba(245,253,255,1) 100%);
+  margin-top: 70px;
+}
+
+.container-cookies, .sessao-conteudo-1, .sessao-conteudo-2, footer {
+  max-width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.imagem-cookies {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+
+.container {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.sessao-conteudo-1 {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid #C7C7C7;
+  border-bottom: 1px solid #C7C7C7;
+  padding-bottom: 3rem;
+}
+
+.fim-sessao {
+  border-bottom: 1px solid #C7C7C7;
+  padding-bottom: 3rem;
+}
+
+.lista-cookies {
+  text-decoration: underline;
+}
+
+
+/*Rodapé*/
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+.voltar-site {
+  text-decoration: none;
+  color: var(--azul);
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+
+}
+
