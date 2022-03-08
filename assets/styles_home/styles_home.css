@@ -1,6 +1,6 @@
 /*Base corpo e fontes*/
 
-@import url(../_variaveis.css);
+@import url(../variaveis.css);
 
 body {
   font-family: var(--familia-corpo);
