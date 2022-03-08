@@ -10,7 +10,7 @@ Programação das páginas de política de privacidade para a marca Multivisi
 
 ## Link para o site
 
- - [Clique aqui e veja o funcionamento do quiz](https://brunorochadelima.github.io/country-quiz/)
+ - [Clique aqui para ver o projeto](https://brunorochadelima.github.io/multivisi-privacidade/index.html)
  
 ## Autor
 
